@@ -3,15 +3,6 @@ package com.appsrigo.ProyectoSpringBoot.models;
 public class Persona {
     private String nombre;
     private byte edad;
-    private String apellido;
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
 
     public String getNombre() {
         return nombre;

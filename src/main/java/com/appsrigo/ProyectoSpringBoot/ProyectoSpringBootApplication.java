@@ -22,7 +22,7 @@ public class ProyectoSpringBootApplication implements CommandLineRunner {
 	private final Logger LOG= LoggerFactory.getLogger(ProyectoSpringBootApplication.class);
 	@Autowired
 	private IPersonaService personaService;
-	private final String CADENA = "Cadena"; // Prueba
+
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoSpringBootApplication.class, args);
 	}
