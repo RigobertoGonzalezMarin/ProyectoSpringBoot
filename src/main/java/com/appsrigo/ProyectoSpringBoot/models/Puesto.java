@@ -8,7 +8,6 @@ import lombok.Setter;
 public class Puesto {
     private String nombre;
     private String nivel;
-    private String numColaboradores;
 
     public Puesto() {
         // Constructor vacío
