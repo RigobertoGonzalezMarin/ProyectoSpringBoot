@@ -9,7 +9,7 @@ public class Puesto {
     private String nombre;
     private String nivel;
     private String numColaboradores;
-    private int num; // Se agrega comentario
+    private int num; // Mi comentario
 
     public Puesto() {
         // Constructor vacío
