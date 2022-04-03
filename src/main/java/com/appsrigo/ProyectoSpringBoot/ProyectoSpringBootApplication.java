@@ -23,8 +23,6 @@ public class ProyectoSpringBootApplication implements CommandLineRunner {
 	@Autowired
 	private IPersonaService personaService;
 
-	@Autowired
-	private IPersonaService personaService2;
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoSpringBootApplication.class, args);
 	}
@@ -38,5 +36,9 @@ public class ProyectoSpringBootApplication implements CommandLineRunner {
 
 	private void prueba(){
 		// Se encontro una nueva función para subir al repositorio Git
+	}
+
+	private String hola() {
+		return "";
 	}
 }
