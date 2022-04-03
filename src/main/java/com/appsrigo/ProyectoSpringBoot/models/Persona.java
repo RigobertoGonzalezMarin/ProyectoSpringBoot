@@ -4,6 +4,15 @@ public class Persona {
     private String nombre;
     private byte edad;
     private String apellido;
+    private String domicilio;
+
+    public String getDomicilio() {
+        return domicilio;
+    }
+
+    public void setDomicilio(String domicilio) {
+        this.domicilio = domicilio;
+    }
 
     public String getApellido() {
         return apellido;
