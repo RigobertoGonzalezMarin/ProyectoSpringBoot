@@ -9,6 +9,8 @@ public class Puesto {
     private String nombre;
     private String nivel;
     private String numColaboradores;
+    
+    private String variable;
 
     public Puesto() {
         // Constructor vacío
