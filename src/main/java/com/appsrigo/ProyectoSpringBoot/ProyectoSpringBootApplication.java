@@ -19,12 +19,9 @@ public class ProyectoSpringBootApplication implements CommandLineRunner {
 
     public static List<Persona> personaList = new ArrayList<>();
 
-	private final Logger LOG= LoggerFactory.getLogger(ProyectoSpringBootApplication.class);
+	private static Logger LOG= LoggerFactory.getLogger(ProyectoSpringBootApplication.class);
 	@Autowired
 	private IPersonaService personaService;
-
-	@Autowired
-	private IPersonaService personaService2;
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoSpringBootApplication.class, args);
 	}
@@ -34,9 +31,5 @@ public class ProyectoSpringBootApplication implements CommandLineRunner {
 		//LOG.info("Hola mundo");
 		//personaService = new PersonaService_Imp(); // Con la inyección de dependencias ya no hace falta hacer esto, ya que spring boot se encarga de buscar la implementación de la interfaz
 		personaService.registrar("Rigo");
-	}
-
-	private void prueba(){
-		// Se encontro una nueva función para subir al repositorio Git
 	}
 }
