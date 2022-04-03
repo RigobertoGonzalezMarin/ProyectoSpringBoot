@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 // Esto se hace por si es que hay más de una implementación de la interfaz
 public class PersonaRepo1_Imp implements IPersonaRepo {
 
-    private static Logger LOG = Logger.getLogger(PersonaRepo1_Imp.class);
+    private final Logger LOG = Logger.getLogger(PersonaRepo1_Imp.class);
 
     @Override
     public void registrar(String nombre) {
